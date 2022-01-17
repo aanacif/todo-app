@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/interactive-pricing-component-rOmBlsQOu](https://www.frontendmentor.io/solutions/interactive-pricing-component-rOmBlsQOu)
-- Live Site URL: [https://aanacif.github.io/interactive-pricing-component/](https://aanacif.github.io/interactive-pricing-component/)
+- Live Site URL: [https://aanacif.github.io/todo-app/](https://aanacif.github.io/todo-app/)
 
 ## My process
 
@@ -53,11 +53,11 @@ for (let coffee = 1; project != done; coffee++) {
 
 ### Built with
 
-- Semantic HTML5 markup
+- Javascript
 - CSS custom properties
 - Flexbox
 - Pseudo elements and selectors
-- Javascript
+- Semantic HTML5 markup
 
 ### What I learned
 
