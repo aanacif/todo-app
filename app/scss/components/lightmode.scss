@@ -1,0 +1,7 @@
+@use "../util" as *;
+
+.theme-toggle {
+  &:hover {
+    cursor: pointer;
+  }
+}

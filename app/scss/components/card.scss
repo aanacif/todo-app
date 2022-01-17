@@ -1,0 +1,116 @@
+@use "../util" as *;
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 540px;
+  margin: 4rem auto 2rem auto;
+
+  h1 {
+    color: #fff;
+    letter-spacing: 0.9rem;
+    font-size: 1.5rem;
+    @include for-tablet-portrait-up {
+      font-size: 2.5rem;
+    }
+  }
+  .theme-toggle {
+    background-color: transparent;
+    border: none;
+    scale: 0.75;
+    @include for-tablet-portrait-up {
+      scale: 1;
+    }
+  }
+}
+
+.card {
+  &-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    max-width: 540px;
+    margin: 0 auto;
+    margin-top: 1rem;
+
+    background-color: var(--cardbg);
+    border-radius: 5px;
+    &-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      height: 50px;
+      padding: 0 1rem;
+
+      color: var(--footertext);
+
+      border-radius: 0 0 5px 5px;
+      position: relative;
+      @include for-tablet-portrait-up {
+        position: unset;
+      }
+      &-items-left {
+        font-size: 0.8rem;
+      }
+      &-categories {
+        display: flex;
+        justify-content: center;
+        background-color: var(--cardbg);
+        position: absolute;
+        top: 115%;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 1rem 5rem;
+        border-radius: 5px;
+        width: 100%;
+        @include for-tablet-portrait-up {
+          padding: 0;
+          width: auto;
+          position: relative;
+          transform: unset;
+          left: 0;
+          top: 0;
+        }
+        &-all {
+          padding: 0 1rem;
+          &:hover {
+            color: var(--texthover);
+            cursor: pointer;
+          }
+        }
+        &-active {
+          padding: 0 1rem;
+          &:hover {
+            color: var(--texthover);
+            cursor: pointer;
+          }
+        }
+        &-completed {
+          padding: 0 1rem;
+          &:hover {
+            color: var(--texthover);
+            cursor: pointer;
+          }
+        }
+      }
+      &-actions {
+        &:hover {
+          color: var(--texthover);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  &-drag-info {
+    text-align: center;
+    margin-top: 6rem;
+    color: var(--footertext);
+  }
+}
+.current-tab {
+  color: var(--brightblue);
+}

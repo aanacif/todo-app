@@ -1,0 +1,36 @@
+@use "../util" as *;
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+
+  // Primary
+
+  --brightblue: hsl(220, 98%, 61%);
+  --checkbackground: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+
+  // Dark Theme
+
+  --bgcolor: hsl(235, 21%, 11%);
+  --cardbg: hsl(235, 24%, 19%);
+  --itemtext: hsl(234, 39%, 85%);
+  --texthover: hsl(236, 33%, 92%); // (hover)
+  --footertext: hsl(234, 11%, 52%);
+
+  --verydarkgrayishblue100: hsl(233, 14%, 35%);
+  --verydarkgrayishblue200: hsl(237, 14%, 26%);
+}
+
+.light-mode {
+  --bgcolor: hsl(236, 33%, 92%);
+  --cardbg: hsl(0, 0%, 98%);
+  --itemtext: hsl(235, 19%, 35%);
+  --texthover: hsl(235, 19%, 35%);
+  --footertext: hsl(236, 9%, 61%);
+
+  --lightgrayishblue: hsl(233, 11%, 84%);
+  --verydarkgrayishblue100: hsl(235, 19%, 35%);
+  background-image: url("../../app/media/images/bg-mobile-light.jpg");
+  @include for-tablet-portrait-up {
+    background-image: url("../../app/media/images/bg-desktop-light.jpg");
+  }
+}
