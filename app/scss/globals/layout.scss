@@ -9,13 +9,13 @@
 body {
   margin: 0 1rem;
   background-color: var(--bgcolor);
-  background-image: url("./app/media/images/bg-mobile-dark.jpg");
+  background-image: url("../app/media/images/bg-mobile-dark.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   @include for-tablet-portrait-up {
     margin: 0;
     background-color: var(--bgcolor);
-    background-image: url("./app/media/images/bg-desktop-dark.jpg");
+    background-image: url("../app/media/images/bg-desktop-dark.jpg");
     background-repeat: no-repeat;
     background-size: contain;
   }

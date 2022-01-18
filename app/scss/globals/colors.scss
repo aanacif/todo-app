@@ -29,8 +29,9 @@
 
   --lightgrayishblue: hsl(233, 11%, 84%);
   --verydarkgrayishblue100: hsl(235, 19%, 35%);
-  background-image: url("./app/media/images/bg-mobile-light.jpg");
+  background-image: url("../app/media/images/bg-mobile-light.jpg");
+
   @include for-tablet-portrait-up {
-    background-image: url("./app/media/images/bg-desktop-light.jpg");
+    background-image: url("../app/media/images/bg-desktop-light.jpg");
   }
 }
