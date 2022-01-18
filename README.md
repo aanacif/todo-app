@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions](https://www.frontendmentor.io/solutions/)
+- Solution URL: [https://www.frontendmentor.io/solutions/darklight-theme-todoapp-Cu8G7X_yL](https://www.frontendmentor.io/solutions/darklight-theme-todoapp-Cu8G7X_yL/)
 - Live Site URL: [https://aanacif.github.io/todo-app/](https://aanacif.github.io/todo-app/)
 
 ## My process
