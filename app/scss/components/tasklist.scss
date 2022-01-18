@@ -48,7 +48,7 @@
     outline: none;
     cursor: pointer;
     &:checked {
-      background-image: url(app\media\images\icon-check.svg),
+      background-image: url(..\app\media\images\icon-check.svg),
         linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
       background-repeat: no-repeat;
       background-position: center;
@@ -67,7 +67,7 @@
     height: 1.2rem;
     margin-right: 1.5rem;
     border: none;
-    background-image: url(app\media\images\icon-cross.svg);
+    background-image: url(..\app\media\images\icon-cross.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1.2rem;
