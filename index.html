@@ -44,20 +44,23 @@
 
 				<div class="card-container-footer-categories">
 					<div class="card-container-footer-categories-all" onclick="listTasks(arrayItems); activeFilterTab()"
-						id="task-filter-all">
+						id="task-filter-all" tabindex="0" role="button">
 						All
 					</div>
 					<div class="card-container-footer-categories-active"
-						onclick="filterTasksList(true); activeFilterTab('active')" id="task-filter-active">
+						onclick="filterTasksList(true); activeFilterTab('active')" id="task-filter-active" tabindex="0"
+						role="button">
 						Active
 					</div>
 					<div class="card-container-footer-categories-completed"
-						onclick="filterTasksList(); activeFilterTab('completed')" id="task-filter-completed">
+						onclick="filterTasksList(); activeFilterTab('completed')" id="task-filter-completed" tabindex="0"
+						role="button">
 						Completed
 					</div>
 				</div>
 
-				<div class="card-container-footer-actions" onclick="clearCompletedTasks()">Clear Completed</div>
+				<div class="card-container-footer-actions" onclick="clearCompletedTasks()" tabindex="0" role="button">Clear
+					Completed</div>
 			</div>
 
 		</div>

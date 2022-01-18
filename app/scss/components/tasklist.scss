@@ -57,6 +57,9 @@
     &:hover {
       border: 1px solid var(--brightblue);
     }
+    &:focus-within {
+      outline: 3px dotted green;
+    }
   }
   &-remove {
     position: absolute;

@@ -81,12 +81,18 @@ nav {
             color: var(--texthover);
             cursor: pointer;
           }
+          &:focus-within {
+            outline: 3px dotted green;
+          }
         }
         &-active {
           padding: 0 1rem;
           &:hover {
             color: var(--texthover);
             cursor: pointer;
+          }
+          &:focus-within {
+            outline: 3px dotted green;
           }
         }
         &-completed {
@@ -95,12 +101,18 @@ nav {
             color: var(--texthover);
             cursor: pointer;
           }
+          &:focus-within {
+            outline: 3px dotted green;
+          }
         }
       }
       &-actions {
         &:hover {
           color: var(--texthover);
           cursor: pointer;
+        }
+        &:focus-within {
+          outline: 3px dotted green;
         }
       }
     }
