@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/interactive-pricing-component-rOmBlsQOu](https://www.frontendmentor.io/solutions/interactive-pricing-component-rOmBlsQOu)
+- Solution URL: [https://www.frontendmentor.io/solutions](https://www.frontendmentor.io/solutions/)
 - Live Site URL: [https://aanacif.github.io/todo-app/](https://aanacif.github.io/todo-app/)
 
 ## My process
@@ -61,7 +61,7 @@ for (let coffee = 1; project != done; coffee++) {
 
 ### What I learned
 
-slider thumb customizing.
+My first light/dark toggle app
 
 ## Author
 
